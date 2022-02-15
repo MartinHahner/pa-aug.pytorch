@@ -4,7 +4,8 @@ import numba
 import numpy as np
 from spconv.utils import rbbox_iou
 
-from geometry import points_in_convex_polygon_3d_jit, points_count_convex_polygon_3d_jit
+from lib.pa_aug.geometry import points_in_convex_polygon_3d_jit, points_count_convex_polygon_3d_jit
+
 
 
 def riou_cc(rbboxes, qrbboxes, standup_thresh=0.0):
