@@ -1,5 +1,5 @@
 import numpy as np
-import box_np_ops
+from lib.pa_aug import box_np_ops
 
 def get_partition_corners(augmented_box_corners, partition_idx, gt_names):
     partition_corners = []
